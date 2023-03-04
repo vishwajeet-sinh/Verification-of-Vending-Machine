@@ -1,0 +1,176 @@
+                         Chronologic VCS (TM)
+            Version R-2020.12 -- Tue Oct  4 21:46:58 2022
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
+
+top.sv
++AMOUNT=52
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12; Runtime version R-2020.12;  Oct  4 21:46 2022
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+running test
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+inside run_phase
+UVM_INFO scoreboard.sv(34) @ 360: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @589     
+  amount       integral       9     'h5      
+  del          integral       17    'h0      
+  oper         oper_e         32    send_5   
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(34) @ 760: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @589     
+  amount       integral       9     'ha      
+  del          integral       17    'h0      
+  oper         oper_e         32    send_10  
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(34) @ 1250: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @589     
+  amount       integral       9     'h19     
+  del          integral       17    'h0      
+  oper         oper_e         32    send_25  
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(34) @ 1570: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @589     
+  amount       integral       9     'ha      
+  del          integral       17    'h0      
+  oper         oper_e         32    send_10  
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(34) @ 1900: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @589     
+  amount       integral       9     'h19     
+  del          integral       17    'h0      
+  oper         oper_e         32    send_25  
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(34) @ 1900: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @589     
+  amount       integral       9     'h34     
+  del          integral       17    'h0      
+  oper         oper_e         32    buy      
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(110) @ 2166: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from DUT MON, 
+ ---------------------------------------------
+Name           Type           Size  Value    
+---------------------------------------------
+vend_seq_item  vend_seq_item  -     @616     
+  amount       integral       9     'h34     
+  del          integral       17    'h0      
+  oper         oper_e         32    buy      
+  emp_type     empty_e        32    empty_25 
+  ret_type     return_e       32    return_25
+---------------------------------------------
+
+UVM_INFO scoreboard.sv(34) @ 2300: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ -----------------------------------------------
+Name           Type           Size  Value      
+-----------------------------------------------
+vend_seq_item  vend_seq_item  -     @593       
+  amount       integral       9     'h0        
+  del          integral       17    'h0        
+  oper         oper_e         32    return_coin
+  emp_type     empty_e        32    empty_10   
+  ret_type     return_e       32    return_25  
+-----------------------------------------------
+
+UVM_ERROR scoreboard.sv(78) @ 4295: uvm_test_top.env.vend_scb [SCB] return_10 is not asserted in responds to empty_10
+UVM_INFO scoreboard.sv(34) @ 22730: uvm_test_top.env.vend_scb [vend_scoreboard]  Printing trans received from oper_MON, 
+ -----------------------------------------------
+Name           Type           Size  Value      
+-----------------------------------------------
+vend_seq_item  vend_seq_item  -     @593       
+  amount       integral       9     'h0        
+  del          integral       17    'h0        
+  oper         oper_e         32    return_coin
+  emp_type     empty_e        32    empty_5    
+  ret_type     return_e       32    return_25  
+-----------------------------------------------
+
+UVM_ERROR scoreboard.sv(66) @ 24725: uvm_test_top.env.vend_scb [SCB] return_5 is not asserted in responds to empty_5
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1270) @ 84035: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 84035: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   12
+UVM_WARNING :    0
+UVM_ERROR :    2
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SCB]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[vend_scoreboard]     9
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time                84035
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 84035 ns
+CPU Time:      0.380 seconds;       Data structure size:   0.2Mb
+Tue Oct  4 21:46:59 2022
